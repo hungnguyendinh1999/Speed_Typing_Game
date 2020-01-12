@@ -60,6 +60,14 @@ body, .quote-input {
     border-color: black;
 }
 
+::selection {
+    background: rgb(109, 169, 248);
+}
+
+::-moz-selection {
+    background: rgb(109, 169, 248);
+}
+
 .correct {
     color: green;
 }
